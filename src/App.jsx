@@ -1,4 +1,4 @@
-
+import { Router } from "./routers/routers"
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1 className=" ">Hello</h1>
+     <Router/>
     </>
   )
 }
