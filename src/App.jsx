@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h3>Hello</h3>
+      <h3 className="text-blue-400">Hello</h3>
     </>
   )
 }
