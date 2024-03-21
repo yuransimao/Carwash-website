@@ -4,7 +4,7 @@ import { MenuResponsive } from './menuResponsive'
 function Header() {
 
     const [MenuResponViseble, setMenuResponViseble] = useState(false)
-    const PageActive = ({ isActive }) => (isActive ? `relative after:absolute after:left-0 after:bottom-[-0.8rem] after:w-full after:h-1 after:bg-blue-700 after:rounded-full` : ` relative after:transition-all after:duration-300 after:ease-in-out after:absolute after:left-0 after:bottom-[-0.8rem] after:w-0 after:h-1 hover:after:bg-blue-700 hover:after:w-full  after:rounded-full`)
+    const PageActive = ({ isActive }) => (isActive ? `relative after:absolute after:left-0 after:bottom-[-0.8rem] after:w-full after:h-1 after:bg-blue-300 after:rounded-full` : ` relative after:transition-all after:duration-300 after:ease-in-out after:absolute after:left-0 after:bottom-[-0.8rem] after:w-0 after:h-1 hover:after:bg-blue-300 hover:after:w-full  after:rounded-full`)
 
     useEffect(() => {
         window.addEventListener("resize", function(){

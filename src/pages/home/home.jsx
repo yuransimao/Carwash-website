@@ -1,10 +1,10 @@
 
 import React from 'react'
-
+import { Swipers } from '@/components'
 function Home() {
   return (
     <React.Fragment>
-        Home
+        <Swipers/>
     </React.Fragment>
   )
 }
