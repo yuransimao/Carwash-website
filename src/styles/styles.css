@@ -34,6 +34,22 @@
  
     --radius: 0.5rem;
   }
+
+  .image-1-slide{
+    background: url(../assets/carsw.jpeg);
+    background-position:100%;
+    background-size: cover;
+    height: 100%;
+    
+  }
+
+  .image-2-slide{
+    background: url(../assets/carwash1.png);
+    background-position:100%;
+    background-size: cover;
+    height: 100%;
+    
+  }
  
   .dark {
     --background: 222.2 84% 4.9%;
