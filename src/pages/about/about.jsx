@@ -1,12 +1,8 @@
 
-import React from 'react'
-
-function About() {
+export default function About() {
   return (
-    <React.Fragment>
-        About
-    </React.Fragment>
+    <>
+      About Page
+    </>
   )
 }
-
-export {About}
