@@ -3,7 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
     font-family: "Poppins", sans-serif;
@@ -38,21 +38,43 @@
     --radius: 0.5rem;
   }
 
+  .Clip-path-polygon{
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 50% 100%, 0 80%);
+  }
   .image-1-slide{
     background: url(../assets/carsw.jpeg);
-    background-position:100%;
-    background-size: cover;
-    height: 100%;
+  
+    @apply  h-full;
+    background-repeat: no-repeat;
+  background-position: 100% ;
+  background-position: center;
+    animation:background-zoom 10s ease-in-out infinite alternate;
+
     
   }
 
   .image-2-slide{
     background: url(../assets/carwash1.png);
-    background-position:100%;
-    background-size: cover;
-    height: 100%;
+    @apply  h-full;
+    background-repeat: no-repeat;
+  background-position: center;
+    animation:background-zoom 10s ease-in-out infinite alternate;
+    
     
   }
+
+  @keyframes background-zoom {
+    0% {
+      background-size: 100% ;
+    }
+    50% {
+      background-size: 110%;
+    }
+    100% {
+      background-size: 100%;
+    }
+  }
+  
  
   .dark {
     --background: 222.2 84% 4.9%;

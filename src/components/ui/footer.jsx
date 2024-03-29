@@ -47,7 +47,7 @@ function Footer() {
                 <div className='flex flex-col gap-6'>
                     <h2 className='text-xl font-semibold'>Newsltter</h2>
                     <p className='text-sm font-light'>Stay in the know about the latest trends and innovations in car wash and detailing with our exclusive newsletters.</p>
-                    <div className='flex justify-center items-center flex-col gap-4'>
+                    <div className='flex justify-center items-start flex-col gap-4'>
             
                     <form action="" className='flex items-center gap-2'>
                     <Input type="email" placeholder="Email" />
@@ -58,7 +58,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='flex items-center justify-center border-[1px] border-solid p-3'>
+            <div className='flex items-center justify-center border-[1px] border-solid px-3 py-5'>
                 <p className='text-sm'>Copyright  ©️ 2024 FLAMES Inc. All rights reserved ®️ Created by <span className='font-bold'>G</span></p>
 
             </div>
