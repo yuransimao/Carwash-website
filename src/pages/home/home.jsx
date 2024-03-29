@@ -8,18 +8,14 @@ import { Section1 } from './components'
 function Home() {
   return (
     <React.Fragment>
-      Home
-      <Main />
+     
+      
       <Swipers/>
-      <Swipers />
+      
 
         <Main />
       <Section1/>
        
-
-      <Section1/>
-      <Main />
-      <Swipers/>
 
     </React.Fragment>
   )
