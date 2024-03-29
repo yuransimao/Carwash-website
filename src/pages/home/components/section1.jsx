@@ -91,7 +91,7 @@ function Section1() {
   return (
     <React.Fragment>
      
-      <div className='px-8 py-28 flex flex-col  justify-center items-center'>
+      <div className='px-2 lg:px-8 md:px-8 py-28 flex flex-col  justify-center items-center'>
         <div className='mb-24 text-center flex flex-col justify-center items-center gap-2'>
           <h3 className='text-blue-700 font-semibold '>Washing Plan</h3>
           <Separator className="w-1/4 h-1 rounded-full bg-blue-500"/>

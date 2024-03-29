@@ -11,7 +11,8 @@ function Header() {
 
     useEffect(() => {
         window.addEventListener("resize", function(){
-            this.innerWidth >= 1024 ? setMenuResponViseble(false) : setMenuResponViseble(true)
+            this.innerWidth <= 1024 ? setMenuResponViseble(true) : setMenuResponViseble(false);
+            
         })
 
         window.addEventListener("scroll", function(){
@@ -40,7 +41,7 @@ function Header() {
                </ul>
 
                <div className='flex lg:hidden md:hidden'>
-                    {MenuResponViseble && <MenuResponsive/>}
+               <MenuResponsive/>
                </div>
                
             </div>

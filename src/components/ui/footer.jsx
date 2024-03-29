@@ -59,7 +59,7 @@ function Footer() {
             </div>
 
             <div className='flex items-center justify-center border-[1px] border-solid px-3 py-5'>
-                <p className='text-sm'>Copyright  ©️ 2024 FLAMES Inc. All rights reserved ®️ Created by <span className='font-bold'>G</span></p>
+                <p className='text-sm text-center'>Copyright  ©️ 2024 FLAMES Inc. All rights reserved ®️ Created by <span className='font-bold'>G</span></p>
 
             </div>
         </footer>
