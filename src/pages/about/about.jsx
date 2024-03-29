@@ -1,8 +1,12 @@
 
-export default function About() {
+import React from 'react'
+
+function About() {
   return (
-    <>
-      About Page
-    </>
+    <React.Fragment>
+        About
+    </React.Fragment>
   )
 }
+
+export {About}

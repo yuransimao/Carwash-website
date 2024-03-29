@@ -1,9 +1,6 @@
 import { Router } from "./routers/routers"
 
-
 function App() {
-  
-
   return (
     <>
      <Router/>

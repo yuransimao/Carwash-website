@@ -2,8 +2,13 @@ import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {ArrowRight } from 'lucide-react'
+
+import ManCleaningCar from "@/assets/exteriorclean.jpg"
+import { Button } from '../';
+
 import ManCleaningCar from "@/assets/Limpacar.jpg"
 import { Button, Carousel,CarouselContent,CarouselItem, } from '../';
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -67,19 +72,10 @@ import { Pagination,Autoplay } from 'swiper/modules';
                   </div>
                   </div>
                 </div>
-              
               </div>
             </div>
-
-
           </div>
         </SwiperSlide>
-
-
-        
-        
-        
-        
       </Swiper>
     </React.Fragment>
   );
