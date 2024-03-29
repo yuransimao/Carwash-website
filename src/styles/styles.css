@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
+    font-family: "Poppins", sans-serif;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -35,21 +38,43 @@
     --radius: 0.5rem;
   }
 
+  .Clip-path-polygon{
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 50% 100%, 0 80%);
+  }
   .image-1-slide{
     background: url(../assets/carsw.jpeg);
-    background-position:100%;
-    background-size: cover;
-    height: 100%;
+  
+    @apply  h-full;
+    background-repeat: no-repeat;
+  background-position: 100% ;
+  background-position: center;
+    animation:background-zoom 10s ease-in-out infinite alternate;
+
     
   }
 
   .image-2-slide{
     background: url(../assets/carwash1.png);
-    background-position:100%;
-    background-size: cover;
-    height: 100%;
+    @apply  h-full;
+    background-repeat: no-repeat;
+  background-position: center;
+    animation:background-zoom 10s ease-in-out infinite alternate;
+    
     
   }
+
+  @keyframes background-zoom {
+    0% {
+      background-size: 100% ;
+    }
+    50% {
+      background-size: 110%;
+    }
+    100% {
+      background-size: 100%;
+    }
+  }
+  
  
   .dark {
     --background: 222.2 84% 4.9%;

@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import * as Pages from '@/pages'
-import { Header } from "@/components";
+
+import { Header, Footer } from "@/components";
 
 function Router (){
-
     return(
         <BrowserRouter>
             <Header/>
@@ -13,6 +13,7 @@ function Router (){
                 <Route path="/contact"  element={<Pages.Contact/>}/>
                 <Route path="/about"  element={<Pages.About/>}/>
             </Routes>
+            <Footer/>
         </BrowserRouter>
     )
 }
