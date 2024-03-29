@@ -12,9 +12,15 @@ function Home() {
       <Main />
       <Swipers/>
       <Swipers />
+
+        <Main />
+      <Section1/>
+       
+
       <Section1/>
       <Main />
       <Swipers/>
+
     </React.Fragment>
   )
 }
