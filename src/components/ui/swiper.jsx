@@ -4,10 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import {ArrowRight } from 'lucide-react'
 
 import ManCleaningCar from "@/assets/exteriorclean.jpg"
-import { Button } from '../';
 
-import ManCleaningCar from "@/assets/Limpacar.jpg"
-import { Button, Carousel,CarouselContent,CarouselItem, } from '../';
+import { Button } from '../';
 
 // Import Swiper styles
 import 'swiper/css';
