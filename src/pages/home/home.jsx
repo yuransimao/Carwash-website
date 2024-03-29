@@ -1,18 +1,20 @@
 import Main from '@/components/main/main'
 
 import React from 'react'
-import { Swipers } from '@/components'
+import { Swipers} from '@/components'
+import { Section1 } from './components'
+
 function Home() {
   return (
     <React.Fragment>
-<<<<<<< HEAD
-        Home
+
+      <Swipers />
+      <Section1/>
         <Main />
-=======
         <Swipers/>
->>>>>>> f18e2d24b59225f07e712b2a2ad6197506ac82cf
+
     </React.Fragment>
   )
 }
 
-export {Home}
+export { Home }
