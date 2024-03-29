@@ -9,9 +9,9 @@ function Home() {
     <React.Fragment>
 
       <Swipers />
-      <Section1/>
         <Main />
-        <Swipers/>
+      <Section1/>
+       
 
     </React.Fragment>
   )
