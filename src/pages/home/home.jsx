@@ -3,7 +3,7 @@ import React from 'react'
 import Main from '@/components/main/main'
 
 import { Swipers } from '@/components'
-import { Section1,Section2 } from './components'
+import { Section1,Section2, Section3 } from './components'
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
       
       <Swipers/>
       <Section2/>
-
+      <Section3/>
        {/* <Main />*/}
       <Section1/>
        
