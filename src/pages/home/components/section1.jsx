@@ -95,7 +95,7 @@ function Section1() {
         <div className='mb-24 text-center flex flex-col justify-center items-center gap-2'>
           <h3 className='text-blue-700 font-semibold '>Washing Plan</h3>
           <Separator className="w-1/4 h-1 rounded-full bg-blue-500"/>
-          <h2 className='text-4xl font-bold'>Choose Your Plan</h2>
+          <h2 className='text-2xl lg:text-4xl md:text-4xl font-semibold'>Choose Your Plan</h2>
         </div>
         <div className={`grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-y-24 gap-x-8`}>{DataPlan.map( (item, index) => <Price key={index} {...item} index={index +1}/>)}
         </div>
