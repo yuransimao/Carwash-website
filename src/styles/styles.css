@@ -41,6 +41,14 @@
   .Clip-path-polygon{
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 50% 100%, 0 80%);
   }
+
+  .Clip-path-Pentagono{
+    
+    clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
+    position: relative;
+  }
+
+  
   .image-1-slide{
     background: url(../assets/carsw.jpeg);
   

@@ -3,6 +3,7 @@ import { Card, Separator,Button } from '@/components'
 import CarWashing from "@/assets/Mancar-wash.png"
 import CarRepair from "@/assets/carRepair.png"
 import Tire from "@/assets/tire.png"
+
 import CarPolish from "@/assets/car-polish.png"
 
 const Cards = [
