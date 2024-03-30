@@ -1,10 +1,10 @@
 import React from 'react'
 
-import {Droplet} from'lucide-react'
+
 import { FaRegHourglassHalf } from "react-icons/fa6";
 import { RiCarWashingFill } from "react-icons/ri";
-import { FaTools } from "react-icons/fa";
-
+import { FaTools,FaCarCrash } from "react-icons/fa";
+import { MdWaterDrop } from "react-icons/md"
 function Section3() {
     return (
         <React.Fragment>
@@ -26,7 +26,7 @@ function Section3() {
                         <div className='col-auto'>
                             <div className='w-40 h-44 lg:h-80 lg:w-80 md:h-60 md:w-60 sm:w-56 sm:h-56  flex flex-col gap-2 items-center justify-center rounded-lg  px-4 Clip-path-Pentagono bg-slate-400/30 transition-all duration-300 ease-in-out hover:bg-blue-600'>
                                 <div className='text-sm lg:text-lg md:text-lg p-2 lg:p-4 md:p-4 sm:p-4 rounded-full bg-white text-blue-400'>
-                                <Droplet size={16}/>
+                                <MdWaterDrop size={16}/>
                                 </div>
                                 <h3 className='text-sm lg:text-base md:text-base text-white font-bold'>Conserves Water</h3>
                                 <p className='text-white text-[11px] lg:text-sm md:text-sm text-center font-medium '>We use less water in vehicele washing.</p>
@@ -37,7 +37,9 @@ function Section3() {
                             <div className='w-40 h-44 lg:h-80 lg:w-80 md:h-60 md:w-60 sm:w-56 sm:h-56  shadow-lg flex flex-col gap-2 items-center justify-center rounded-lg  px-4 Clip-path-Pentagono bg-slate-400/30 lg:bg-blue-500 md:bg-blue-500 transition-all duration-300 ease-in-out hover:bg-blue-600'>
                                 <div className='p-2  rounded-full bg-white text-blue-400'>
                                 <div className='border-2 border-solid rounded-full border-blue-400 p-2  '>
-                                    <h4 className='font-bold text-sm lg:text-base md:text-base'>24</h4>
+                                    <h4 className='font-bold text-sm lg:text-base md:text-base'>
+                                        <FaCarCrash size={16}/>
+                                    </h4>
                                 </div>
                                 </div>
                                 <h3 className='text-sm lg:text-base md:text-base text-white font-bold'>Our Availability</h3>
