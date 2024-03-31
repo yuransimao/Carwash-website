@@ -11,10 +11,10 @@ function Home() {
      
       
      <Section/>
+      <Section1/>
       <Section2/>
       <Section3/>
        {/* <Main />*/}
-      <Section1/>
        
 
     </React.Fragment>
