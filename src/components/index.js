@@ -9,3 +9,4 @@ export * from "./ui/input"
 export * from "./ui/separator"
 export * from './ui/price'
 export * from "./ui/layout"
+export * from "./ui/gallery"
