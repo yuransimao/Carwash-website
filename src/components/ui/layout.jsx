@@ -21,7 +21,7 @@ function Layout({children}) {
   return (
     <React.Fragment>
         <div>
-            {PageHomeMenu ? FixedMenu && <Header FixedMenu={FixedMenu}/> : <Header FixedMenu={FixedMenu}/>}
+             <Header FixedMenu={FixedMenu}/> 
             <div className='min-h-svh'> 
             {children}
             </div>
