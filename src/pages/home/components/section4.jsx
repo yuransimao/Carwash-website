@@ -10,9 +10,7 @@ function Section4() {
     <React.Fragment>
 
         <div className='px-4 lg:px-8 md:px-8'>
-            <div>
-                <h2 className='font-bold'>We takes of their fleets </h2>
-            </div>
+            
             <div className='grid grid-cols-4 gap-2'>
                 {Imagens.map((item, index) => (
                 

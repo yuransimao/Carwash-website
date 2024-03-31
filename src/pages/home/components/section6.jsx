@@ -1,6 +1,9 @@
 import React from 'react'
 import Car from "@/assets/car3.jpg"
-import { Gallery } from '@/components'
+import CarMan from "@/assets/Limpacar.jpg"
+import Car3 from "@/assets/Car2.jpg"
+import { Gallery,Separator } from '@/components'
+
 const DataImage=[
     {
       id:1,
@@ -8,11 +11,11 @@ const DataImage=[
     },
     {
       id:2,
-      image: Car
+      image: CarMan
     },
     {
       id:3,
-      image: Car
+      image:  CarMan
     },
     {
       id:4,
@@ -21,7 +24,7 @@ const DataImage=[
     ,
     {
       id:5,
-      image: Car
+      image: CarMan
     }
     ,
     {
@@ -30,11 +33,11 @@ const DataImage=[
     },
     {
       id:7,
-      image: Car
+      image: Car3
     },
     {
       id:8,
-      image: Car
+      image: Car3
     }
     ,
     {
@@ -44,9 +47,10 @@ const DataImage=[
     ,
     {
       id:10,
-      image: Car
+      image: CarMan
     }
     ,
+    /*
     {
       id:11,
       image: Car
@@ -111,13 +115,22 @@ const DataImage=[
     {
       id:26,
       image: Car
-    }
-  ]
+    }*/
+  ] 
+
 function Section6() {
   return (
     <React.Fragment>
 
         <div className=' px-4 lg:px-8 md:px-8 py-24 '>
+        <div className='flex flex-col gap-3 mb-8'>
+          <h3 className='text-blue-700 font-semibold '>Our images</h3>
+          <Separator className="w-16 h-1 rounded-full bg-blue-500"/>
+          <h2 className='text-2xl lg:text-4xl md:text-4xl font-semibold'>Gallary Image</h2>
+          <p className='text-sm'> 
+            Check out some images of our washing services, carried <br/>out with dedication and special care.
+            </p>
+        </div>
         <Gallery Image={DataImage}/>
         </div>
     </React.Fragment>
