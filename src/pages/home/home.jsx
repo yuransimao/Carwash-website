@@ -2,8 +2,7 @@ import React from 'react'
 
 import Main from '@/components/main/main'
 
-import { Swipers } from '@/components'
-import { Section1,Section2, Section3,Section } from './components'
+import { Section1,Section2, Section3,Section, Section4,Section5 } from './components'
 
 function Home() {
   return (
@@ -11,9 +10,11 @@ function Home() {
      
       
      <Section/>
+     <Section4/>
       <Section1/>
       <Section2/>
       <Section3/>
+      <Section5/>
        {/* <Main />*/}
        
 

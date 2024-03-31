@@ -17,7 +17,7 @@ function Section() {
             <p className='text-[.800rem] lg:text-sm md:text-sm text-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <div className='flex items-center justify-center gap-2'>
-            <Button className='bg-blue-600'><h3>Contact us</h3></Button>
+            <Button className='bg-blue-600'><h3>Start washing</h3></Button>
             <Button variant="outline"><h3>Booking</h3></Button>
           </div>
 

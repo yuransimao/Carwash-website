@@ -17,7 +17,7 @@ const Cards = [
 function Section1() {
     return (
         <React.Fragment>
-            <div className='block lg:px-8 px-4 md:px-8  py-24 justify-between'>
+            <div className='block  px-4 lg:px-8 md:px-8  py-24 justify-between'>
                 <div className='flex flex-col gap-3 w-full mb-4'>
                 <h3 className='text-black font-bold uppercase text-2xl'>Our Service</h3>
           <Separator className="w-14 h-1 rounded-full bg-blue-600"/>
